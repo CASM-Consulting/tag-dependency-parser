@@ -8,12 +8,13 @@
     <version>1.18.0</version>
     <packaging>jar</packaging>
 
-    <parent>
-        <version>1.0.3</version>
-        <groupId>uk.ac.susx.tag</groupId>
-        <artifactId>tag-dist</artifactId>
-        <relativePath>../tag-dist</relativePath>
-    </parent>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub CASM-Consulting Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/CASM-Consulting/method52</url>
+        </repository>
+    </distributionManagement>
 
     <dependencies>
 
